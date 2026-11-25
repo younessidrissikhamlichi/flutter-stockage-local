@@ -30,6 +30,12 @@ jobs:
       - name: Installer les dépendances
         run: flutter pub get
 
+      - name: Analyse statique
+        run: flutter analyze
+
+      - name: Tests unitaires
+        run: flutter test
+
       - name: Construire la version web
         run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
 

@@ -1,8 +1,8 @@
-# 📝 Flutter – Stockage local des données avec `shared_preferences`
+# Flutter – Stockage local des données avec `shared_preferences`
 
 Application Flutter minimaliste (liste de tâches) qui illustre **comment enregistrer des données dans la mémoire locale de l'appareil** afin qu'elles soient conservées après la fermeture de l'application.
 
-🌐 **Démo en ligne** : https://younessidrissikhamlichi.github.io/flutter-stockage-local/
+ **Démo en ligne** : https://younessidrissikhamlichi.github.io/flutter-stockage-local/
 
 ---
 
@@ -280,3 +280,4 @@ flutter-stockage-local/
 ## Licence
 
 Projet à but pédagogique, libre d'utilisation.
+Pr. Youness IDRISSI KHAMLICHI
