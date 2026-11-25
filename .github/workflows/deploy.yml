@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Installer Flutter
         uses: subosito/flutter-action@v2
@@ -40,7 +40,7 @@ jobs:
         run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
 
       - name: Préparer l'artefact Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: build/web
 
@@ -53,4 +53,4 @@ jobs:
     steps:
       - name: Déployer sur GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
