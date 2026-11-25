@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Une ligne de la liste : le texte de la tâche et un bouton supprimer.
 class TacheTile extends StatelessWidget {
